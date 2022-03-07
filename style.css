@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: rgb(29, 24, 24);
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container{
+    width: 75%;
+    margin: auto;
+}
+
+.question-bar{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.word-bar{
+    margin-top: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.word-bar-item{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 20px;
+    min-height: 50px;
+    min-width: 50px;
+    margin: 0px 5px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+.answer-bar{
+    margin-top: 80px;
+    text-align: center;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+
+.button-span{
+    font-size: 1.1rem;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid #fff;
+    padding: 2px 3px;
+    margin-right: 5px;
+    border-radius: 4px;
+}
+
+.answer-input{
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 30px;
+    font-size: .9rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.answer-button{
+    background-color: blue;
+    padding: 9px 12px;
+    position: relative;
+    left: -10px;
+    top: 2px;
+}
+
